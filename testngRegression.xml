@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" >
+    <!--<listeners>-->
+        <!--<listener class-name="tests.SmokeTest"/>-->
+        <!--<listener class-name="tests.WishlistCreatingTest"/>-->
+    <!--</listeners>-->
+    <test name="regress">
+        <packages>
+            <package name="tests"/>
+        </packages>
+    </test>
+</suite>
